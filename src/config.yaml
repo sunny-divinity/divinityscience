@@ -1,5 +1,5 @@
 site:
-  name: AstroWind
+  name: Divinity Science
   site: 'https://astrowind.vercel.app'
   base: '/'
   trailingSlash: false
