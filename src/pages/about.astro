@@ -5,6 +5,12 @@ import Hero from '~/components/widgets/Hero.astro';
 import Steps2 from '~/components/widgets/Steps2.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
+import ashleyImage from 'src/assets/images/Ashley.jpeg'
+import { Image } from 'astro:assets';
+
+
+
+
 const metadata = {
   title: 'About us',
 };
@@ -132,7 +138,7 @@ const metadata = {
   />
 
   <!-- Steps2 Widget ****************** -->
-  <img src="src/assets/images/Ashley.jpeg" alt="Description of image" width="400" height="200" style="display: block; margin-left: auto; margin-right: auto;"/>
+  <Image src={ashleyImage} alt="Description of image" width="400" height="200" style="display: block; margin-left: auto; margin-right: auto;"/>
 
   <Steps2
     title="Leadership"
