@@ -1,10 +1,10 @@
 site:
   name: Divinity Science
-  site: 'https://astrowind.vercel.app'
+  site: 'https://www.divinityscience.com/'
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  googleSiteVerificationId: L5Lmzokbn3rzk5RaQ0EAW5w4WZH9Pz0U0MBXI5kqSuI
 
 # Default SEO metadata
 metadata:
